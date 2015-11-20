@@ -43,9 +43,12 @@
 
     {% include license.html %}
 
-    {% if page.postClass != null %}<div class="{{ page.postClass }}">{% endif %}
+    <div class="container">
+        {{ content }}
+    </div>
+    <!--{% if page.postClass != null %}<div class="{{ page.postClass }}">{% endif %}
     {{ content }}
-    {% if page.postClass != null %}</div>{% endif %}
+    {% if page.postClass != null %}</div>{% endif %}-->
 
     {% if page.series %}
         {% include series.html %}
