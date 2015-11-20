@@ -19,7 +19,7 @@
                 
                 {% include aboutMe.html %}
                 
-                <h1>Technical Posts<a class="title-img" href="{{ site.url }}/feed-en.xml" title="RSS of Technical Posts" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'EnRss', window.location.pathname]);"><img src="{{ site.url }}/img/rss-green.png" /></a></h1>
+                <!--<h1>Technical Posts<a class="title-img" href="{{ site.url }}/feed-en.xml" title="RSS of Technical Posts" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'EnRss', window.location.pathname]);"><img src="{{ site.url }}/img/rss-green.png" /></a></h1>
 
                 {% assign start = paginator.page | minus: 1 | times: 20 %}
                 {% assign end = start | plus: 20 %}
@@ -77,7 +77,7 @@
                     <a href="{{ site.url }}/page{{ paginator.next_page }}" class="next" onclick="_gaq.push(['_trackEvent', 'ToNextPage', '{{ paginator.next_page }}thPage', window.location.pathname]);">Next</a>
                 {% endif %}
                 <a href="{{ site.url }}/all/" class="allPostLink" onclick="_gaq.push(['_trackEvent', 'ToAllPost', 'InRecentNav', window.location.pathname]);">All Posts</a>
-                </div>
+                </div>-->
 
                 <h1>中文博客<a class="title-img" href="{{ site.url }}/feed-cn.xml" title="订阅中文博客RSS" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'CnRss', window.location.pathname]);"><img src="{{ site.url }}/img/rss-green.png" /></a></h1>
 
