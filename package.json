@@ -1,9 +1,9 @@
 {
-  "name": "OviliaBlog",
+  "name": "LibBlog",
   "version": "0.1.0",
-  "description": "Ovilia's Blog",
+  "description": "lib's Blog",
   "main": "gulpfile.js",
-  "author": "Ovilia",
+  "author": "lib",
   "license": "MIT",
   "devDependencies": {
     "gulp": "~3.9.0",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ovilia/blog"
+    "url": "https://github.com/ace1573/blog"
   },
   "keywords": [
     "jekyll",

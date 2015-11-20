@@ -1,7 +1,7 @@
-name: "Blog of Wenli Zhang"
-description: "Web Front-End Blog by Wenli Zhang"
+name: "Blog of lib"
+description: "Web Front-End Blog by lib"
 
-url: "http://zhangwenli.com/blog"
+url: "http://scnu.top:4000"
 loadingImg: "http://7xl1oi.com1.z0.glb.clouddn.com/loading.gif"
 filePath: "http://7xl1oi.com1.z0.glb.clouddn.com/"
 
