@@ -5,6 +5,7 @@ layout: post
 tags:
 - 测试
 - 博客
+- 中文
 excerpt: 测试一下可不可以
 ---
 
